@@ -49,6 +49,8 @@ console.groupEnd()
 
 //Aqui interactuamos con HTML   
 
+// Cuadrados
+
 function calcularPerimetroCuadrado() {
 const input = document.getElementById("inputCuadrado");
 const value = input.value;
@@ -61,3 +63,6 @@ const value = input.value;
 const area = areaCuadrado(value);
 alert(area);
 }
+
+//Triangulos
+
